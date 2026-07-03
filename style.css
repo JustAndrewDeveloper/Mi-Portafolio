@@ -16,3 +16,25 @@ img {
     justify-content: space-around;
     width: 100%;
 }
+.contenedor-proyectos {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.tarjeta-proyectos {
+    background-color: aquamarine;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+@media (max-width: 600px) {
+    .contenedor-enlaces{
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+    }
+
+    p{
+        font-size: small;
+    }
+}
